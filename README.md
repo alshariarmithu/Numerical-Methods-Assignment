@@ -10,7 +10,14 @@
 equation Ax=b. Here, A is square matrix of coefficients , x is column matrix of  variables.Then we decompose A as multiplication between lower triangular matrix L and upper 
 triangular matrix U. So, Ax=b implies LUx=b. Then, Ly=b where, y=Ux .From Ly=b we find column matrix y. Then we can solve Ux=y for our solution.</p></ol>
 <h2>Solution of Non-linear Equations</h2>
-<ol><h3><li>Bisection Method:</li></h3><p>Bisection Method finds roots by repeatedly halving an interval.</p><h3><li>False Position Method:</li></h3><p>A refinement of the bisection method using the secant line to approximate the root.</p><h3><li>Secant Method:</li></h3><p>This methods approximates roots by using two previous points without needing derivatives</p><h3><li>Newton-Raphson Method:</li></h3><p>Newton- Raphson Method is an efficient method using function derivatives to find roots rapidly.</p></ol>
+<ol><h3><li>Bisection Method:</li></h3><p>Bisection Method finds roots by repeatedly halving an interval.</p><h3><li>False Position Method:</li></h3><p>A refinement of the bisection method using the secant line to approximate the root.</p><h3><li>Secant Method:</li></h3><p>This methods approximates roots by using two previous points without needing derivatives</p><h3><li>Newton-Raphson Method:</li></h3><p>Newton- Raphson Method is an efficient method using function derivatives to find roots rapidly.Newton Raphson Method or Newton’s Method is an algorithm to 
+approximate the roots of zeros of the real-valued functions, using guess for the first 
+iteration (x0) and then approximating the next iteration(x1) which is close to roots, using 
+the following formula: 
+where, 
+• x0 is the initial value of x, x1= x0 – f(x0)/f'(x0) 
+• f(x0) is the value of the equation at initial value, and 
+• f'(x0) is the value of the first order derivative of the equation or function at the initial value x0. </p></ol>
 <h2>Solution of Differential Equations</h2>
 <ol><h3><li>Runge-Kutta Method:</li></h3><p>A numerical method to solve ordinary differential equations (ODEs), particularly useful for initial value problems. The 4th-order Runge-Kutta method (RK4) is the most commonly used and provides a good balance between accuracy and computational efficiency. We want to 
 solve the first-order ODE: dy/dx=f(x,y) with an initial condition 𝑦(𝑥0)=𝑦0</p></ol>
