@@ -1,7 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-// ALSHARIAR HOSSAIN MITHU//
+// ALSHARIAR HOSSAIN MITHU //
 // ROLL: 2107066
 
 float f(float x, float a, float b, float c)
