@@ -10,7 +10,8 @@
 <h2>Solution of Non-linear Equations</h2>
 <ol><h3><li>Bisection Method:</li></h3><p>Bisection Method finds roots by repeatedly halving an interval.</p><h3><li>False Position Method:</li></h3><p>A refinement of the bisection method using the secant line to approximate the root.</p><h3><li>Secant Method:</li></h3><p>This methods approximates roots by using two previous points without needing derivatives</p><h3><li>Newton-Raphson Method:</li></h3><p>Newton- Raphson Method is an efficient method using function derivatives to find roots rapidly.</p></ol>
 <h2>Solution of Differential Equations</h2>
-<ol><h3><li>Runge-Kutta Method:</li></h3><p>A numerical method to solve ordinary differential equations (ODEs), particularly useful for initial value problems.</p></ol>
+<ol><h3><li>Runge-Kutta Method:</li></h3><p>A numerical method to solve ordinary differential equations (ODEs), particularly useful for initial value problems. The 4th-order Runge-Kutta method (RK4) is the most commonly used and provides a good balance between accuracy and computational efficiency. We want to 
+solve the first-order ODE: dy/dx=f(x,y) with an initial condition 𝑦(𝑥0)=𝑦0</p></ol>
 <h2>Matrix Inversion</h2>
 <p>Matrix Inversion generally implements matrix inversion using Gauss-Jordan elimination by augmenting the matrix with the identity matrix.</p>
 <h2>How to use</h2> 
