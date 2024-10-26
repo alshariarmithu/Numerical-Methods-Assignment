@@ -13,6 +13,14 @@
 <ol><h3><li>Runge-Kutta Method:</li></h3><p>A numerical method to solve ordinary differential equations (ODEs), particularly useful for initial value problems.</p></ol>
 <h2>Matrix Inversion</h2>
 <p>Matrix Inversion generally implements matrix inversion using Gauss-Jordan elimination by augmenting the matrix with the identity matrix.</p>
+<h2>How to use</h2> 
+
+```bash
+Cloning:
+git clone https://github.com/alshariarmithu/Numerical-Methods-Assignment.git
+Run:
+g++ main.cpp -o numerical_methods
+./numerical_methods
 
 
 
