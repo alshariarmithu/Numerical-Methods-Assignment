@@ -1,4 +1,5 @@
 #include <bits/stdc++.h>
+#include "Bisection_Method.h"
 using namespace std;
 
 // AL SHARIAR HOSSAIN MITHU //
