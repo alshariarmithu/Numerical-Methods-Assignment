@@ -15,7 +15,7 @@ triangular matrix U. So, Ax=b implies LUx=b. Then, Ly=b where, y=Ux .From Ly=b w
 <ol><h3><li>Runge-Kutta Method:</li></h3><p>A numerical method to solve ordinary differential equations (ODEs), particularly useful for initial value problems. The 4th-order Runge-Kutta method (RK4) is the most commonly used and provides a good balance between accuracy and computational efficiency. We want to 
 solve the first-order ODE: dy/dx=f(x,y) with an initial condition 𝑦(𝑥0)=𝑦0</p></ol>
 <h2>Matrix Inversion</h2>
-<p>Matrix Inversion generally implements matrix inversion using Gauss-Jordan elimination by augmenting the matrix with the identity matrix.</p>
+<p>Matrix Inversion generally implements matrix inversion using Gauss-Jordan elimination by augmenting the matrix with the identity matrix.The input matrix is checked first to determine if it is invertible. If the input matrix is not square matrix or if the upper triangular form of the matrix contain 0 as a diagonal element then the matrix is not invertible. If the matrix is invertible then the matrix (A) is augmented with its corresponding identity matrix([A:I]). Then reduced row echelon form of the augmented matrix is found([I:A-1 ]). Thus, the augmented part of the resultant matrix is our inverse of input matrix. </p>
 <h2>How to use</h2> 
 
 ```bash
